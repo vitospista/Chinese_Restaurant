@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-success">
+				<div class="container">
+			<a class="navbar-brand" href="#">Food LLC</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item ">
+						<a class="nav-link" href="#chicken-section">Chicken <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#beef-section">Beef</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="#sushi-section">Sushi</a>
+					</li>
+				</ul>
+			</div>
+						</div>
+		</nav>
+		<div class="container">
+		  <h1 id="title" class="text-center">Our Menu</h1>
+				<div class="row">			
+				  <div class="col-xs-12 col-sm-6 col-md-4 col-content">
+						<section id="chicken-section" class="bg-success">
+							<h3 class="text-center">Chicken</h3>
+					  <p>(OPTIONAL, NOT GRADED) Since in this optional part you will be implementing something more complex than a single section in the Bootstrap grid, remove that section before continuing.</p>
+						<p>(OPTIONAL, NOT GRADED) As in previous assignment, the rest of your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. 
+							<br>(Hint: use the Bootstrap Grid we discussed in Lecture 26 of Module 2 as well as numerous lectures of Module 3, including Lecture 35.)</p>
+						<p>(OPTIONAL, NOT GRADED) Each section should be fairly large in height. You can achieve this by either filling it up with a lot of content text or simply setting its height property to something large like 700px. At the end of each section, provide a link that says "Back to Top". This link should jump the page back to "Our Menu" heading. 
+							<br>(Hint: use a link that points to a section of the page discussed in Lecture 9 of Module 1.)</p>
+									<a class="btn btn-link" href= "#title">Back to Top</a>
+						</section>
+					</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-content">
+								<section id="beef-section" class="bg-success">
+							<h3 class="text-center">Beef</h3>
+							<p>(OPTIONAL, NOT GRADED) Each section should have an h3-based section heading which should be centered within the section. Use the same Bootstrap class you used for centering the page heading to center the section heading. Use the heading names shown in the mockup illustrations, i.e., "Chicken", "Beef", "Sushi".</p>
+						<p>(OPTIONAL, NOT GRADED) Layout: In the desktop view, each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower. (Hint: use md-based grid column classes as discussed in Lecture 26 and Lecture 35 among othe7rs. It's a 12 grid-based system, so 3 in a row means each grid will take up 4 grid cells, i.e., col-md-4.) For a visual reference of this view, see the desktop mockup illustration below.</p>
+								<a class="btn btn-link" href= "#title">Back to Top</a>
+								</section>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-4 col-content">
+								<section id="sushi-section" class="bg-success">
+								<h3 class="text-center">Sushi</h3>
+								<p>(OPTIONAL, NOT GRADED) Layout: In the tablet view, the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself. 
+							<br>(Hint: use 'sm'-based grid column classes and remember that you don't really need to define a separate 'row' class as you can achieve this layout within a single Bootstrap 'row' as discussed in Lecture 26 and Lecture 35, among others. To have 2 sections take up an entire row, i.e., all 12 columns, each one should take up 6 columns. To make the 3rd section take up the entire width of the browser window, i.e., 12 columns, use col-sm-12.) </p>
+							<p>(OPTIONAL, NOT GRADED) Layout: In the mobile view, each section should take up the entire row. 
+							<br>(Hint: use xs-based grid column class. Since you need to take up the entire row, use col-xs-12.) 
+							<br>For a visual reference of this view, see the mobile mockup illustration below.</p>
+						<p>(OPTIONAL, NOT GRADED) Link the menu items "Chicken", "Beef", "Sushi" from the mobile-only menu drop down to jump to the part of the page those sections correspond to.</p>
+								<a class="btn btn-link" href= "#title">Back to Top</a>
+								</section>
+						</div>	
+				</div><!--row-->
+		</div><!--container-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script><script src="js/script.js"></script>
+</body>
+</html>
